@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container{
+    height: 100vh;
+    background-image: url(pexels-chevanon-photography-317155.jpg);
+   background-size: cover;
+   background-position: right;
+    color: #fff;
+    
+    
+}
+
+.hero-content{
+    padding: 10% 5%;
+    margin:  0 3%;
+}
+
+.hero-content p {
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 0.75rem;
+    font-size: 1.3rem;
+}
+
+
+
+h1 {
+    color: #fff;
+    font-size: 4rem;
+    text-shadow: #000 5px 3px 5px;
+}
+
+.btn{
+    width: 500px;
+    position: relative;
+    margin: 2rem 0;
+}
+
+input {
+    width: 100%;
+    padding: 1rem 1rem;
+    outline: none;
+    border: none;
+}
+::placeholder{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+button{
+ 
+    cursor: pointer;
+    color: #fff;
+    background-color: #c65227;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 45%;
+}
+
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+}
+
+span {
+    text-decoration: underline;
+}
+
+
+@media(max-width: 768px){
+    .btn{
+        width: 350px;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .hero-content p{
+        font-size: 1rem;
+    }
+
+
+    button{
+        font-size: 12px;
+    }
+
+    ::placeholder{
+        font-size: 12px;
+    }
+}
